@@ -14,7 +14,7 @@ pipeline {
                 sh 'sleep 2' 
             }
         }
-        stage('Test') {
+        stage('boom') {
             steps {
                 echo 'Running unit tests...'
                 sh 'sleep 2' 
