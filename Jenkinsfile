@@ -20,5 +20,11 @@ pipeline {
                 sh 'sleep 2' 
             }
         }
+        stage('testing'){
+            steps{
+                echo "testing..."
+                sh 'sleep 5'
+            }
+        }
     }
 }
