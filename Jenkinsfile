@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                echo 'Compiling the application...'
+                echo 'Cmpiling the application...'
                 sh 'sleep 2' 
             }
         }
