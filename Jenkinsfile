@@ -5,7 +5,7 @@ pipeline {
         stage('Preparation') {
             steps {
                 echo 'Cleaning up workspace...'
-                echo 'Downloading code...'
+                echo 'Downloading codeee...'
             }
         }
         stage('Build') {
